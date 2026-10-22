@@ -1,6 +1,6 @@
 # 🛡️ Security Audit Skill (`SKILL.md`)
 
-A systematic, full-coverage **Security Audit Skill** engineered for AI Agent Harnesses (Claude Code, Cursor, Root, or custom agent runtimes).
+A systematic, full-coverage **Security Audit Skill** engineered for AI Agent Harnesses (Claude Code, Cursor, or custom agent runtimes).
 
 Unlike standard AI code review prompts that only inspect application-level AST patterns, `SKILL.md` performs an end-to-end security and threat-intel assessment across application code, third-party dependencies, CI/CD pipelines, cloud infrastructure, AI agent harnesses, **and the underlying runtime platform**.
 
@@ -70,7 +70,7 @@ cp SKILL.md .cursor/rules/security-audit.mdc
 
 ```
 
-### 3. Root / Custom Agent Harnesses / MCP
+### 3. Custom Agent Harnesses / MCP
 
 If using a custom agent pipeline or an Model Context Protocol (MCP) tool harness, place `SKILL.md` in your system prompt directory or register it as a dynamic skill module within your agent's system instructions.
 
